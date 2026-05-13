@@ -1,0 +1,5 @@
+service:
+  name: ServiceLBGTraining
+  identifier: ServiceLBGTraining
+  orgIdentifier: default
+  projectIdentifier: LBGTrainingProject
