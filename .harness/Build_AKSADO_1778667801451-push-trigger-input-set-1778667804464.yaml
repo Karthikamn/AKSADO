@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AKSADO_1778667801451-push-trigger-input-set
+  identifier: Build_AKSADO_1778667801451pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: LBGTrainingProject
+  pipeline:
+    identifier: Build_AKSADO_1778667801451
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
