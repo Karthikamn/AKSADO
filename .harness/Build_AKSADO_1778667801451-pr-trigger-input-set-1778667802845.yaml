@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AKSADO_1778667801451-pr-trigger-input-set
+  identifier: Build_AKSADO_1778667801451prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: LBGTrainingProject
+  pipeline:
+    identifier: Build_AKSADO_1778667801451
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
